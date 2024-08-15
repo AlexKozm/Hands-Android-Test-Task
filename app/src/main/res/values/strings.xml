@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Hands Android Test Task</string>
+    <string name="skull_emoji">💀</string>
+    <string name="boom_emoji">💥</string>
+    <string name="hatching_chick_emoji">🐣</string>
+    <string name="dead_cell_head_line">Мёртвая</string>
+    <string name="alive_cell_head_line">Живая</string>
+    <string name="life_cell_head_line">Жизнь</string>
+    <string name="dead_cell_support">или прикидывается</string>
+    <string name="alive_cell_support">и шевелится!</string>
+    <string name="life_cell_support">Ку-ку!</string>
+    <string name="cells_screen_top_app_bar">Клеточное наполнение</string>
+    <string name="create_cell_button">СОТВОРИТЬ</string>
 </resources>

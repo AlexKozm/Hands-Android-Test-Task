@@ -26,18 +26,19 @@ val roboto = FontFamily(
 val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = roboto,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    ),
-    headlineSmall = TextStyle(
-        fontFamily = roboto,
         fontWeight = FontWeight.W500,
         fontSize = 20.sp,
         lineHeight = 28.sp,
         letterSpacing = 0.0015.sp
     ),
+//    headlineSmall = TextStyle(
+//        fontFamily = roboto,
+//        fontWeight = FontWeight.W500,
+//        fontSize = 20.sp,
+//        lineHeight = 28.sp,
+//        letterSpacing = 0.0015.sp
+//    ),
+
     bodyMedium = TextStyle(
         fontFamily = roboto,
         fontWeight = FontWeight.W400,
@@ -45,13 +46,19 @@ val Typography = Typography(
         lineHeight = 20.sp,
         letterSpacing = 0.0025.sp
 ),
+    titleLarge = TextStyle(
+        fontFamily = roboto,
+        fontWeight = FontWeight.W500,
+        fontSize = 20.sp,
+        lineHeight = 28.sp,
+        letterSpacing = 0.0015.sp
+    ),
     labelLarge = TextStyle(
         fontFamily = roboto,
         fontWeight = FontWeight.W400,
         fontSize = 14.sp,
         lineHeight = 14.56.sp,
         letterSpacing = 0.0125.sp,
-
 )
 
 

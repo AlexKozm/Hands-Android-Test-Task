@@ -10,15 +10,16 @@ import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
     secondary = PurpleGrey80,
-    tertiary = Pink80
+    tertiary = Pink80,
 )
 
-val LightColorScheme = lightColorScheme(
+private val LightColorScheme = lightColorScheme(
     primary = Purple40,
     secondary = PurpleGrey40,
     tertiary = Pink40
@@ -32,6 +33,15 @@ val LightColorScheme = lightColorScheme(
     onBackground = Color(0xFF1C1B1F),
     onSurface = Color(0xFF1C1B1F),
     */
+)
+
+val customColorScheme = darkColorScheme(
+//    surfaceContainerLowest = Color.White,
+//    onSurface = Color.Black
+    primary = Color(0xFF5A3472),
+    onPrimary = Color.White,
+    inverseSurface = Color.White,
+    inverseOnSurface = Color.Black
 )
 
 @Composable
@@ -50,7 +60,7 @@ fun HandsAndroidTestTaskTheme(
 //        darkTheme -> DarkColorScheme
 //        else -> LightColorScheme
 //    }
-    val colorScheme = DarkColorScheme
+    val colorScheme = customColorScheme
 
     MaterialTheme(
         colorScheme = colorScheme,
